@@ -1,7 +1,6 @@
 h1{
 	background-color: palegreen;
 	margin:0;
-<<<<<<< HEAD
 	border:5px solid seagreen;
 	padding: 20px;
 }
@@ -10,12 +9,7 @@ body{
 	padding:0;
 	border:0;
 }
-=======
-	padding:0;
-	border:0;
-}
 
->>>>>>> a53c1f024a622174ed95655d810b3137ed399bf3
 .container {
   display: block;
   position: relative;
