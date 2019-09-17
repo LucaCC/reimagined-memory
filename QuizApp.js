@@ -1,5 +1,34 @@
 $(document).ready(function(){
-  $('#one').click(function() {
-   if($('#a1').is(':checked')) { alert("it's checked"); }
-	});
+  $('#one').click(function(){
+   if($('#a1').is(':checked')){ 
+		 $(".c1").show();
+	 }
+	 else{
+     $(".f1").show();
+   }
+  });
+	$('#two').click(function(){
+   if($('#b2').is(':checked')){ 
+		 $(".c2").show();
+	 }
+	 else{
+     $(".f2").show();
+   }
+  });
+	$('#three').click(function(){
+   if($('#b3').is(':checked')){ 
+		 $(".c3").show();
+	 }
+	 else{
+     $(".f3").show();
+   }
+  });
+	$('#four').click(function(){
+   if($('#c4').is(':checked')){ 
+		 $(".c4").show();
+	 }
+	 else{
+     $(".f4").show();
+   }
+  });
 });
