@@ -1,5 +1,5 @@
 $(document).ready(function(){
   $('#one').click(function() {
-   if($('#a').is(':checked')) { alert("it's checked"); }
+   if($('#a1').is(':checked')) { alert("it's checked"); }
 	});
 });
