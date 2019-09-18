@@ -1,28 +1,28 @@
 $(document).ready(function(){
   $('.button').click(function(){
    if($('#a1').is(':checked')){ 
-		 $(".c1").show();
+		 $("#c1").show();
 	 }
 	 else{
-     $(".f1").show();
+     $("#f1").show();
    }
    if($('#b2').is(':checked')){ 
-		 $(".c2").show();
+		 $("#c2").show();
 	 }
 	 else{
-     $(".f2").show();
+     $("#f2").show();
    }
    if($('#b3').is(':checked')){ 
-		 $(".c3").show();
+		 $("#c3").show();
 	 }
 	 else{
-     $(".f3").show();
+     $("#f3").show();
    }
    if($('#c4').is(':checked')){ 
-		 $(".c4").show();
+		 $("#c4").show();
 	 }
 	 else{
-     $(".f4").show();
+     $("#f4").show();
    }
   });
 });
